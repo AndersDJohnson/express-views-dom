@@ -1,10 +1,12 @@
 express-views-dom
 ==========================
 
-A DOM view engine for [Express](http://expressjs.com/).
+A DOM view engine for [Express][express].
 
 [![NPM version](https://badge.fury.io/js/express-views-dom.png)](http://badge.fury.io/js/express-views-dom)
 [![Dependency Status](https://david-dm.org/AndersDJohnson/express-views-dom.png)](https://david-dm.org/AndersDJohnson/express-views-dom)
+
+Now with layouts support via [express-views-dom-layouts]!
 
 ## Installation
 
@@ -159,4 +161,7 @@ Results in:
   </body>
 </html>
 ```
+
+[express]: http://expressjs.com/
+[express-views-dom-layouts]: https://github.com/AndersDJohnson/express-views-dom-layouts
 
