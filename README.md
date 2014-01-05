@@ -26,7 +26,7 @@ app.engine('html', require('express-views-dom')(app));
 
 ### Simple use
 
-"views/home.html"
+"views/home.html":
 ```html
 <!doctype html>
 <html>
@@ -37,7 +37,8 @@ app.engine('html', require('express-views-dom')(app));
 </html>
 ```
 
-```
+JavaScript:
+```javascript
 app.get('/', function (req, res) {
   res.render('home', {
     render: function (window, done) {
@@ -104,7 +105,7 @@ is a shared object so you can pass data to the new call.
 
 Here is an example of a basic layout system:
 
-"views/home.html"
+"views/home.html":
 ```html
 <!doctype html>
 <html>
@@ -115,7 +116,7 @@ Here is an example of a basic layout system:
 </html>
 ```
 
-"views/layout.html"
+"views/layout.html":
 ```html
 <!doctype html>
 <html>
@@ -127,6 +128,7 @@ Here is an example of a basic layout system:
 </html>
 ```
 
+JavaScript:
 ```javascript
 res.render('home', {
   render: function (window, done, params) {
