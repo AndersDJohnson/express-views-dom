@@ -1,6 +1,6 @@
 {
   "name": "express-views-dom",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A DOM view engine for Express.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/AndersDJohnson/express-views-dom",
   "dependencies": {
     "jsdom": "~0.8.10"
+  },
+  "peerDependencies": {
+    "express": "~3.0"
   }
 }
