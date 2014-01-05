@@ -105,7 +105,7 @@ This will spawn a new DOM environment for the HTML of the other view,
 then re-call your `render` function on it. The last argument to `render`
 is a shared object so you can pass data to the new call.
 
-Here is an example of a basic layout system:
+Here is an example of a basic layout system (if you're serious, consider [express-views-dom-layouts]):
 
 "views/home.html":
 ```html
