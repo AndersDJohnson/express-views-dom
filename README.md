@@ -133,7 +133,7 @@ JavaScript:
 res.render('home', {
   render: function (window, done, params) {
     var doc = window.document;
-    if (params.hasOwnProperty(myBody)) {
+    if (params.hasOwnProperty('myBody')) {
       doc.body.innerHTML = params.myBody;
       done();
     }
