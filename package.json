@@ -1,6 +1,6 @@
 {
   "name": "express-views-dom",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A DOM view engine for Express.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:AndersDJohnson/express-views-dom.git"
   },
-  "author": "Anders D. Johnson",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AndersDJohnson/express-views-dom/issues"
